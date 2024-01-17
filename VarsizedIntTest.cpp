@@ -3,7 +3,7 @@
 #include <cstdio>
 
 int main() {
-	uint8_t buffer[CVarsizedInt::MaxSize];
+	uint8_t buffer[CVarsizedInt::MaxSize] = {};
 
 	uint64_t testData[] = {
 		127, 16383, 2097151, 268435455,

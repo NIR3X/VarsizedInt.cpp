@@ -25,7 +25,7 @@ int main() {
 
 	// Encode and Decode a variable-sized integer
 	uint64_t originalValue = 123456789;
-	uint8_t encodedData[CVarsizedInt::MaxSize];
+	uint8_t encodedData[CVarsizedInt::MaxSize] = {};
 	int encodedSize = CVarsizedInt::Encode(encodedData, originalValue);
 
 	// Display encoded data
