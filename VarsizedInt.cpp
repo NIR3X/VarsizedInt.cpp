@@ -1,7 +1,5 @@
 #include "VarsizedInt.h"
 
-const size_t CVarsizedInt::MaxSize = 9;
-
 int CVarsizedInt::CalcSize(uint64_t x) {
 	size_t size = 0;
 	do {

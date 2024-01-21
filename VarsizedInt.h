@@ -4,7 +4,7 @@
 
 class CVarsizedInt {
 public:
-	static const size_t MaxSize;
+	static constexpr size_t MaxSize = 9;
 
 	static int CalcSize(uint64_t x);
 	static int ParseSize(uint8_t* src);
